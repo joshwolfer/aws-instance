@@ -10,5 +10,6 @@ resource "aws_instance" "ubuntu" {
   tags = {
     Name = "joshwolfer"
     Owner = "jwolfer@hashicorp.com"
+    Branch = "dev"
   }
 }
